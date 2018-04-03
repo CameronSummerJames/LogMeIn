@@ -1,0 +1,14 @@
+name: LogMeIn
+main: fr.cameronjames.logmein.Main
+version: 1.0
+author: CameronJamesT8
+commands:
+  login:
+    description: Allows you to log-in to the server
+    usage: /<command> <password>
+  register:
+    description: Allows you to register to the server
+    usage: /<command> <password>
+  changepass:
+    description: Allows you to change your password
+    usage: /<command> <password>

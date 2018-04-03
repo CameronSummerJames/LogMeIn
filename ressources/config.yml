@@ -1,0 +1,21 @@
+password_lenght: 4 # Minimal lenght for the password
+can_talk: true # True : the players can talk withouth login, False : players will be muted withouth login. (True or False, all comands are bocked)
+messages:
+  login: "&6Hello there &2%player% &6! You have to login to the server using :\n&c/login <password>."
+  register: "&6Welcome &2%player%&6 ! You have to register to the server using :\n&c/register <password> <password>."
+  success_login: "&2You are now successfully connected ! Have fun %player% &2!"
+  password_not_match: "&cError, try to log-in again, you typed a wrong password !"
+  password_lenght: "&cError, the password must contain at least %lenght% characters !"
+  needpasslogin: "&cError, you have to type a password in order to login !\n/login <password>"
+  register_success: "&2You are now successfully registered ! You can now log in using:\n&c/login <password>"
+  already_registered: "&coO It's seems that you are already registered on this server ! Try to log-in, or contact an administrator !"
+  register_not_match: "&cError, the passwords you typed does not match ! Try again !"
+  register_need_2args: "&cError, you have to type 2 times the same password for security reasons !"
+  no_account: "&cError, the account with the name &2%player%&c doesn't exist !"
+  cant_talk_login: "&cYou have to login before talk !"
+  cant_talk_register: "&cYou have to register before talk !"
+  commands_disabled: "&cError, the commands are disabled until log-in or register !"
+  success_changepass: "&2Your password have been successfully changed. You have now to log in with your new password using:\n&c/login <password>"
+  needpasschangepass: "&cError, you have to type your actual and your new password in order to change your password.\n/changepass <oldPassword> <newPassword>"
+  password_not_match_change: "&cError, the actual password is wrong !"
+  already_logged: "&cError, you are already connected !"
